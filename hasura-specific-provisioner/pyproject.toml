@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "hasura-specific-provisioner"
+version = "0.1.0"
+description = "Hasura Specific Provisioner for Witboost"
+license = "Apache-2.0"
+authors = ["Nicolò Bidotti <nicolo.bidotti@agilelab.it>"]
+packages = [{include = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pytest = "^7.2.2"
+black = "^23.1.0"
+mypy = "^1.1.1"
+fastapi-code-generator = "^0.4.1"
+fastapi = {extras = ["all"], version = "^0.95.2"}
+pre-commit = "^3.1.1"
+ruff = "^0.0.255"
+opentelemetry-distro = "^0.38b0"
+opentelemetry-instrumentation-fastapi = "0.38b0"
+opentelemetry-exporter-otlp-proto-grpc = "^1.17.0"
+opentelemetry-exporter-otlp = "^1.17.0"
+pip-audit = "^2.5.3"
+pytest-cov = "^4.0.0"
+
+[tool.ruff]
+select = ["E", "F", "I"]
+
+[tool.black]
+skip-string-normalization = true
+
+[tool.pytest.ini_options]
+addopts = "-v"
+
+[tool.coverage.report]
+fail_under = 90
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.liccheck]
+authorized_licenses = [
+    'apache license 2.0',
+    'apache software',
+    'bsd',
+    'cc0 1.0 universal (cc0 1.0) public domain dedication',
+    'gnu lesser general public license v2 or later (lgplv2+)',
+    'isc',
+    'isc license (iscl)',
+    'mit',
+    'mozilla public license 2.0 (mpl 2.0)',
+    'other/proprietary',
+    'python software foundation',
+    'the unlicense (unlicense)',
+    '3-clause bsd'
+]
+unauthorized_licenses = [
+    "gnu general public license v2 (gplv2)"
+]
