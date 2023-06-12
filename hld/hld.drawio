@@ -1,0 +1,1020 @@
+<mxfile host="Electron" modified="2023-06-12T08:40:38.835Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.1.2 Chrome/106.0.5249.199 Electron/21.4.3 Safari/537.36" etag="WCn8t2duyWZw0zZ1S_Xb" version="21.1.2" type="device" pages="7">
+  <diagram name="Mesh" id="ItT8i2tR7hwvSqpi71Ku">
+    <mxGraphModel dx="1434" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5Dr7YDZvkOGEtNm02bFT-2" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Data Product&lt;/font&gt;" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;hachureGap=4;fontFamily=Nunito;fontSize=20;size=150;verticalAlign=top;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="833" y="361" width="780" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Nunito;fontSize=16;dashed=1;dashPattern=12 12;curved=1;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="5Dr7YDZvkOGEtNm02bFT-1" target="5Dr7YDZvkOGEtNm02bFT-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Dr7YDZvkOGEtNm02bFT-1" value="Snowflake&lt;br&gt;Storage" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;hachureGap=4;fontFamily=Nunito;fontSize=20;fillColor=#d5e8d4;strokeColor=#82b366;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="933" y="671" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Nunito;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="5Dr7YDZvkOGEtNm02bFT-3" target="5Dr7YDZvkOGEtNm02bFT-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1023" y="1001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-16" value="View" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="0dlTXSC2FvjNYGB1gbVO-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.0915" y="-1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Dr7YDZvkOGEtNm02bFT-8" value="Snowflake Cloud" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="908" y="1003" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IRXJAT0AmehKFgNzk9FF-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Nunito;fontSize=16;curved=1;entryX=0;entryY=0.617;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="IRXJAT0AmehKFgNzk9FF-1" target="IRXJAT0AmehKFgNzk9FF-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRXJAT0AmehKFgNzk9FF-1" value="S3" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="513" y="431" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="IRXJAT0AmehKFgNzk9FF-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Nunito;fontSize=16;curved=1;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="IRXJAT0AmehKFgNzk9FF-2" target="5Dr7YDZvkOGEtNm02bFT-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-25" value="Insert" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="IRXJAT0AmehKFgNzk9FF-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.1429" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRXJAT0AmehKFgNzk9FF-2" value="Airbyte&lt;br&gt;Workload" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Nunito;fontSize=20;fillColor=#ffe6cc;strokeColor=#d79b00;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="925.5" y="521" width="145" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;fontFamily=Nunito;fontSize=16;curved=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="IRXJAT0AmehKFgNzk9FF-6" target="5Dr7YDZvkOGEtNm02bFT-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-20" value="JDBC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="0dlTXSC2FvjNYGB1gbVO-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.2632" y="2" relative="1" as="geometry">
+            <mxPoint x="-219" y="48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IRXJAT0AmehKFgNzk9FF-6" value="Consumer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1793" y="481" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Nunito;fontSize=16;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;curved=1;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="5Dr7YDZvkOGEtNm02bFT-1" target="5Dr7YDZvkOGEtNm02bFT-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1008" y="1013" as="targetPoint" />
+            <mxPoint x="1228" y="796" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-17" value="Table" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="0dlTXSC2FvjNYGB1gbVO-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.1322" relative="1" as="geometry">
+            <mxPoint y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Nunito;fontSize=16;curved=1;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="0dlTXSC2FvjNYGB1gbVO-22" target="IRXJAT0AmehKFgNzk9FF-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-24" value="Trigger" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="0dlTXSC2FvjNYGB1gbVO-23" vertex="1" connectable="0">
+          <mxGeometry x="0.1127" y="-6" relative="1" as="geometry">
+            <mxPoint x="11" y="8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-22" value="Airflow DAG&lt;br&gt;Workload" style="rounded=0;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Nunito;fontSize=20;fillColor=#fff2cc;strokeColor=#d6b656;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1063" y="431" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="L9fwc_3vIqwXlT4G2n0y-1" value="" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fillColor=none;dashed=1;dashPattern=12 12;strokeColor=#000000;strokeWidth=5;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="620" width="270" height="700" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Nunito;fontSize=16;curved=1;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="5Dr7YDZvkOGEtNm02bFT-6" target="5Dr7YDZvkOGEtNm02bFT-9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-18" value="Query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="0dlTXSC2FvjNYGB1gbVO-12" vertex="1" connectable="0">
+          <mxGeometry x="-0.1253" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" y="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Dr7YDZvkOGEtNm02bFT-6" value="Hasura&lt;br&gt;Output Port" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Nunito;fontSize=20;fillColor=#b0e3e6;strokeColor=#0e8088;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1353" y="646" width="175" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="5Dr7YDZvkOGEtNm02bFT-10" value="&lt;font style=&quot;font-size: 15px;&quot;&gt;Snowflake connector is only available in Enterprise or Cloud&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1323" y="1183" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-2" value="" style="group;fontFamily=Nunito;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="1323" y="1003" width="230" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5Dr7YDZvkOGEtNm02bFT-9" value="Hasura EE&lt;br&gt;(K8s cluster)" style="rounded=1;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;fillColor=#b0e3e6;strokeColor=#0e8088;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="0dlTXSC2FvjNYGB1gbVO-2" vertex="1">
+          <mxGeometry width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Snowflake&lt;br&gt;Connector&lt;/font&gt;" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;fillColor=#b0e3e6;strokeColor=#0e8088;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="0dlTXSC2FvjNYGB1gbVO-2" vertex="1">
+          <mxGeometry x="40" y="80" width="150" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Nunito;fontSize=16;startArrow=classic;startFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="0dlTXSC2FvjNYGB1gbVO-1" target="5Dr7YDZvkOGEtNm02bFT-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRXJAT0AmehKFgNzk9FF-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Nunito;fontSize=16;dashed=1;dashPattern=12 12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;curved=1;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="5Dr7YDZvkOGEtNm02bFT-3" target="5Dr7YDZvkOGEtNm02bFT-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="IRXJAT0AmehKFgNzk9FF-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;hachureGap=4;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Nunito;fontSize=16;curved=1;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="IRXJAT0AmehKFgNzk9FF-6" target="5Dr7YDZvkOGEtNm02bFT-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0dlTXSC2FvjNYGB1gbVO-19" value="GraphQL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="IRXJAT0AmehKFgNzk9FF-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.1924" y="10" relative="1" as="geometry">
+            <mxPoint x="-73" y="30" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5Dr7YDZvkOGEtNm02bFT-3" value="Snowflake&lt;br&gt;Output Port" style="rhombus;whiteSpace=wrap;html=1;hachureGap=4;fontFamily=Nunito;fontSize=20;fillColor=#dae8fc;strokeColor=#6c8ebf;sketch=1;curveFitting=1;jiggle=2;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1135.5" y="646" width="175" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eCnoDLzVjiewDEhCkmiT-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;This is the perimeter we&#39;re going to handle.&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;align=left;" parent="1" vertex="1">
+          <mxGeometry x="1553" y="860" width="277" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Overview" id="olF5ttRBlWVvdxKSSwJD">
+    <mxGraphModel dx="1434" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-0" />
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-1" parent="KEZqLQ1N2geyIQ-xhBZk-0" />
+        <mxCell id="vGEBzTm1XthcR-KE0IrT-2" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Shown as tables for&lt;br&gt;simplicity; actually&amp;nbsp;GraphQL types accessible via queries &amp;amp; mutations.&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;align=left;verticalAlign=top;spacingLeft=4;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1">
+          <mxGeometry x="1870" y="1040" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-3" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Hasura&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1">
+          <mxGeometry x="1440" y="360" width="440" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="vGEBzTm1XthcR-KE0IrT-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;dashed=1;dashPattern=12 12;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-16" target="vGEBzTm1XthcR-KE0IrT-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1890" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1900" y="520" />
+              <mxPoint x="1900" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-16" value="Data" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;verticalAlign=middle;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1">
+          <mxGeometry x="1520" y="440" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-19" value="" style="group;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1" connectable="0">
+          <mxGeometry x="1960" y="360" width="277" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-20" value="Data Source" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;verticalAlign=bottom;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-19" vertex="1">
+          <mxGeometry width="277" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-21" value="Table" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;verticalAlign=middle;spacingTop=8;" parent="KEZqLQ1N2geyIQ-xhBZk-19" vertex="1">
+          <mxGeometry x="40.96478873239437" y="49.52523809523809" width="195.07042253521126" height="60.95238095238095" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-16" target="KEZqLQ1N2geyIQ-xhBZk-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-30" target="KEZqLQ1N2geyIQ-xhBZk-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-29" value="Deploy,&lt;br&gt;update DP/OP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.0027" y="-2" relative="1" as="geometry">
+            <mxPoint y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-30" value="DP team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=16;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1">
+          <mxGeometry x="120" y="112.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-31" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-33" target="KEZqLQ1N2geyIQ-xhBZk-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-32" value="Deploy,&lt;br&gt;update DP/OP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-31" vertex="1" connectable="0">
+          <mxGeometry x="0.3239" relative="1" as="geometry">
+            <mxPoint x="-19" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-33" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Witboost&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=middle;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1">
+          <mxGeometry x="280" y="80" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-34" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-35" target="KEZqLQ1N2geyIQ-xhBZk-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="543.75" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="700" y="300" />
+              <mxPoint x="300" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-35" value="Provisioning Coordinator" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Nunito;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1">
+          <mxGeometry x="600" y="81.25" width="200" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-36" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Provisioning, unprovisioning, ACL updates on Output Ports&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1">
+          <mxGeometry x="450" y="223.75" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;curved=1;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-2" target="KEZqLQ1N2geyIQ-xhBZk-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="640" as="sourcePoint" />
+            <mxPoint x="710" y="1196.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-39" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Create, delete, update roles&lt;br&gt;and mappings&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="KEZqLQ1N2geyIQ-xhBZk-38" vertex="1" connectable="0">
+          <mxGeometry y="4" relative="1" as="geometry">
+            <mxPoint x="6" y="69" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGEBzTm1XthcR-KE0IrT-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=1;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;dashed=1;dashPattern=12 12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-46" target="vGEBzTm1XthcR-KE0IrT-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1960" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1860" y="760" />
+              <mxPoint x="1860" y="1040" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-46" value="&lt;div&gt;Mapping data:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;roles&lt;/li&gt;&lt;li&gt;user_roles&lt;/li&gt;&lt;li&gt;group_roles&lt;/li&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;align=left;spacingLeft=24;verticalAlign=bottom;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1">
+          <mxGeometry x="1520" y="590" width="280" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;curved=1;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-41" target="KEZqLQ1N2geyIQ-xhBZk-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1880" y="880" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-49" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Create, delete, update roles&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;and mappings&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="KEZqLQ1N2geyIQ-xhBZk-48" vertex="1" connectable="0">
+          <mxGeometry x="0.1765" y="-1" relative="1" as="geometry">
+            <mxPoint x="-151" y="-53" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK8bcZbs766-iHouz0xo-10" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="vGEBzTm1XthcR-KE0IrT-0" target="KEZqLQ1N2geyIQ-xhBZk-16" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1460" y="142" />
+              <mxPoint x="1460" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK8bcZbs766-iHouz0xo-11" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Access data&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Architects Daughter;fontColor=default;" parent="GK8bcZbs766-iHouz0xo-10" vertex="1" connectable="0">
+          <mxGeometry x="-0.1568" y="-8" relative="1" as="geometry">
+            <mxPoint x="-12" y="41" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vGEBzTm1XthcR-KE0IrT-0" value="Consumer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=16;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1">
+          <mxGeometry x="1210" y="112.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GK8bcZbs766-iHouz0xo-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Nunito;fontSize=16;curved=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-2" target="KEZqLQ1N2geyIQ-xhBZk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="603.75" as="sourcePoint" />
+            <mxPoint x="1410" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK8bcZbs766-iHouz0xo-4" value="Track, untrack, set&lt;br&gt;permissions on tables" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="GK8bcZbs766-iHouz0xo-3" vertex="1" connectable="0">
+          <mxGeometry x="-0.0609" y="1" relative="1" as="geometry">
+            <mxPoint x="26" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK8bcZbs766-iHouz0xo-5" value="" style="group;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1" connectable="0">
+          <mxGeometry x="740" y="920" width="440" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-41" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Webhook/RoleMapper&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="GK8bcZbs766-iHouz0xo-5" vertex="1">
+          <mxGeometry width="440" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GK8bcZbs766-iHouz0xo-1" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;br&gt;Responsible for handling authentication webhook calls from Hasura according to role mappings,&lt;br&gt;&lt;br&gt;Also services requests to create, delete and update role mappings for users and groups.&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontSize=16;fontColor=default;align=left;verticalAlign=top;spacingLeft=4;" parent="GK8bcZbs766-iHouz0xo-5" vertex="1">
+          <mxGeometry x="40" y="80" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GK8bcZbs766-iHouz0xo-6" value="" style="group;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1" connectable="0">
+          <mxGeometry x="80" y="363.75" width="440" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-2" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Hasura SP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="GK8bcZbs766-iHouz0xo-6" vertex="1">
+          <mxGeometry width="440" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="GK8bcZbs766-iHouz0xo-0" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;br&gt;&lt;br&gt;Responsible for provisioning and unprovisioning operations on the Output Ports.&lt;br&gt;&lt;br&gt;Also services requests to change ACLs on the OP by requesting changes to the role mappings.&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontSize=16;fontColor=default;align=left;verticalAlign=top;spacingLeft=4;" parent="GK8bcZbs766-iHouz0xo-6" vertex="1">
+          <mxGeometry x="40" y="80" width="360" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Nunito;fontSize=16;curved=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;exitX=1;exitY=0.25;exitDx=0;exitDy=0;startArrow=classic;startFill=1;endArrow=none;endFill=0;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-41" target="KEZqLQ1N2geyIQ-xhBZk-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK8bcZbs766-iHouz0xo-9" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Authentication requests&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Architects Daughter;fontColor=default;" parent="KEZqLQ1N2geyIQ-xhBZk-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.283" y="-100" relative="1" as="geometry">
+            <mxPoint x="-90" y="-62" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GK8bcZbs766-iHouz0xo-7" value="" style="group" parent="KEZqLQ1N2geyIQ-xhBZk-1" vertex="1" connectable="0">
+          <mxGeometry x="1960" y="582.7586206896551" width="277" height="267.2413793103448" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-43" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;verticalAlign=bottom;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="GK8bcZbs766-iHouz0xo-7" vertex="1">
+          <mxGeometry y="-20" width="277" height="276.55" as="geometry" />
+        </mxCell>
+        <mxCell id="B1wZSp0mgjghxv9psCAU-0" value="&lt;div&gt;Tables:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;roles&lt;/li&gt;&lt;li&gt;user_roles&lt;/li&gt;&lt;li&gt;group_roles&lt;/li&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;align=left;spacingLeft=24;verticalAlign=bottom;" parent="GK8bcZbs766-iHouz0xo-7" vertex="1">
+          <mxGeometry x="43.5" y="40" width="190" height="169.14" as="geometry" />
+        </mxCell>
+        <mxCell id="KEZqLQ1N2geyIQ-xhBZk-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="KEZqLQ1N2geyIQ-xhBZk-1" source="KEZqLQ1N2geyIQ-xhBZk-46" target="B1wZSp0mgjghxv9psCAU-0" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2013.5" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Provisioning and unprovisioning" id="HlEBFxBSwHhaApRulJSV">
+    <mxGraphModel dx="2049" dy="1256" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-0" />
+        <mxCell id="CrBskSO4nDhFndBRX1B0-1" parent="CrBskSO4nDhFndBRX1B0-0" />
+        <mxCell id="CrBskSO4nDhFndBRX1B0-2" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Hasura SP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="280" y="360" width="680" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-3" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Hasura&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="1480" y="360" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-4" value="2 - Retrieve details for component and dependent component (Snowflake OP)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="310" y="430" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-5" value="3 - Validate provisioning request" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="310" y="510" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Nunito;fontSize=16;curved=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-9" target="CrBskSO4nDhFndBRX1B0-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-7" value="4a - Track table" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-6" vertex="1" connectable="0">
+          <mxGeometry x="-0.0609" y="1" relative="1" as="geometry">
+            <mxPoint x="-84" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;dashed=1;dashPattern=12 12;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-9" target="CrBskSO4nDhFndBRX1B0-17" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="1230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="620" />
+              <mxPoint x="170" y="1030" />
+              <mxPoint x="720" y="1030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-9" value="4 - Execute snowflake_track_table request" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="310" y="590" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-10" value="&lt;div&gt;Validations:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Check data source exists on Hasura&lt;/li&gt;&lt;li&gt;Check Snowflake OP is from the same DP&lt;/li&gt;&lt;li&gt;Check configuration for root fields is valid for GraphQL&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;verticalAlign=top;spacingLeft=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="40" y="1080" width="400" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-11" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-14" target="CrBskSO4nDhFndBRX1B0-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-12" value="6a - Set permissions" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-11" vertex="1" connectable="0">
+          <mxGeometry x="-0.1933" y="14" relative="1" as="geometry">
+            <mxPoint x="29" y="-67" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-13" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=12 12;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-14" target="CrBskSO4nDhFndBRX1B0-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-14" value="6 - Execute snowflake_create_select_permission request" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="310" y="750" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-15" value="&lt;div&gt;We assume the Data Sources&lt;br&gt;exist already&lt;/div&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;verticalAlign=top;spacingLeft=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="1960" y="200" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-16" value="Vaccines" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="1560" y="440" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-17" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;POST v1/metadata&lt;br style=&quot;font-size: 14px;&quot;&gt;Content-Type: application/json&lt;br style=&quot;font-size: 14px;&quot;&gt;X-Hasura-Role: admin&lt;br style=&quot;font-size: 14px;&quot;&gt;X-Hasura-Admin-Secret: myadminsecretkey&lt;br style=&quot;font-size: 14px;&quot;&gt;{&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &quot;type&quot;: &quot;snowflake_track_table&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &quot;args&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;source&quot;: &quot;snowflake&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;table&quot;: &quot;VACCINE&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;configuration&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;custom_name&quot;: &quot;Vaccines&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;custom_root_fields&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;select&quot;: &quot;Vaccines&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;select_by_pk&quot;: &quot;Vaccine&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;select_aggregate&quot;: &quot;VaccineAgg&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;insert&quot;: &quot;AddVaccines&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;insert_one&quot;:&quot;AddVaccine&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;update&quot;: &quot;UpdateVaccines&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;update_by_pk&quot;: &quot;UpdateVaccine&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;delete&quot;: &quot;DeleteVaccines&quot;,&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;delete_by_pk&quot;: &quot;DeleteVaccine&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;comment&quot;: &quot;Access to VACCINE table&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; },&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &quot;apollo_federation_config&quot;: {&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;enable&quot;: &quot;v1&quot;&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; }&lt;br style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; }&lt;br style=&quot;font-size: 14px;&quot;&gt;}&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=14;fontColor=default;align=left;verticalAlign=top;size=0.109375;spacingLeft=4;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="520" y="1080" width="400" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-18" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;POST v1/metadata&lt;br style=&quot;font-size: 14px;&quot;&gt;Content-Type: application/json&lt;br style=&quot;font-size: 14px;&quot;&gt;X-Hasura-Role: admin&lt;br style=&quot;font-size: 14px;&quot;&gt;X-Hasura-Admin-Secret: myadminsecretkey&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;type&quot;:&quot;snowflake_create_select_permission&quot;,&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;args&quot;:{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;table&quot;:[&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;VACCINE&quot;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;role&quot;: &quot;dom1.dp1.0.op.readrole&quot;,&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;permission&quot;:{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;columns&quot;:[&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;],&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;filter&quot;:{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;},&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;set&quot;:[&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;],&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;allow_aggregations&quot;:false&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;source&quot;:&quot;snowflake&quot;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp;}&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=14;fontColor=default;align=left;verticalAlign=top;size=0.109375;spacingLeft=4;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="960" y="1080" width="400" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-19" value="" style="group;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1" connectable="0">
+          <mxGeometry x="2003" y="360" width="277" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-20" value="Snowflake Cloud&lt;br&gt;(Sandbox account)" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;verticalAlign=bottom;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-19" vertex="1">
+          <mxGeometry width="277" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-21" value="VACCINE" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;spacingTop=8;" parent="CrBskSO4nDhFndBRX1B0-19" vertex="1">
+          <mxGeometry x="40.96478873239437" y="38.09523809523809" width="195.07042253521126" height="60.95238095238095" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-16" target="CrBskSO4nDhFndBRX1B0-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-23" value="7 - Generate deploy info" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="310" y="827" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-24" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="39.99999999999977" y="940.4285714285716" as="targetPoint" />
+            <mxPoint x="280" y="940" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="40" y="940" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-25" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;9 - Send response&lt;br&gt;on polling&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-24" vertex="1" connectable="0">
+          <mxGeometry x="0.1516" y="1" relative="1" as="geometry">
+            <mxPoint y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-26" value="8 - Complete" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="310" y="910" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-27" value="&lt;span style=&quot;background-color: initial;&quot;&gt;The corresponding unprovisioning operation is very simple: just untrack the table.&lt;br&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Step 4 changes to an untrack&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Step 5 becomes role delete&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;Step 6 disappears&lt;/li&gt;&lt;/ul&gt;&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;verticalAlign=top;spacingLeft=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="1520" y="36.25" width="360" height="202.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-28" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-30" target="CrBskSO4nDhFndBRX1B0-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-29" value="Deploy DP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-28" vertex="1" connectable="0">
+          <mxGeometry x="-0.0027" y="-2" relative="1" as="geometry">
+            <mxPoint y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-30" value="DP team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=16;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="280" y="68.75" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-31" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-33" target="CrBskSO4nDhFndBRX1B0-35" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-32" value="Deploy DP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-31" vertex="1" connectable="0">
+          <mxGeometry x="0.3239" relative="1" as="geometry">
+            <mxPoint x="-19" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-33" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Witboost&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=middle;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="440" y="36.25" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-35" value="Provisioning Coordinator" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Nunito;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="760" y="37.5" width="200" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;curved=1;dashed=1;dashPattern=12 12;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-40" target="CrBskSO4nDhFndBRX1B0-47" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1200" y="700" />
+              <mxPoint x="1200" y="1010" />
+              <mxPoint x="1600" y="1010" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;curved=1;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-40" target="CrBskSO4nDhFndBRX1B0-51" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-39" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;5a - Create role&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="CrBskSO4nDhFndBRX1B0-38" vertex="1" connectable="0">
+          <mxGeometry y="4" relative="1" as="geometry">
+            <mxPoint x="101" y="72" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-40" value="5 - Execute create_role request" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="310" y="670" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-41" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Webhook/RoleMapper&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="1480" y="760" width="440" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-42" value="" style="group;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1" connectable="0">
+          <mxGeometry x="2000" y="560" width="277" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-43" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;verticalAlign=bottom;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-42" vertex="1">
+          <mxGeometry width="277" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-44" value="&lt;span style=&quot;background-color: initial;&quot;&gt;roles&lt;/span&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;align=center;spacingLeft=0;spacingTop=8;" parent="CrBskSO4nDhFndBRX1B0-42" vertex="1">
+          <mxGeometry x="40.96" y="38.1" width="195.07" height="61.9" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;curved=1;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-46" target="CrBskSO4nDhFndBRX1B0-44" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-46" value="&lt;span style=&quot;background-color: initial;&quot;&gt;roles&lt;/span&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;align=center;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="1560" y="560" width="280" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-47" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;POST v1/role&lt;br style=&quot;font-size: 14px;&quot;&gt;Content-Type: application/json&lt;br style=&quot;font-size: 14px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &quot;role_id&quot;:&quot;dom1.dp1.0.op.readrole&quot;,&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &quot;component_id&quot;: &quot;urn:dmb:cmp:dom1:dp1:0:op&lt;span style=&quot;background-color: initial;&quot;&gt;&quot;,&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &quot;graphql_root_field_name&quot;: &quot;dom1_dp1_0_op&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;}&lt;/div&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=14;fontColor=default;align=left;verticalAlign=top;size=0.109375;spacingLeft=4;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="1400" y="1080" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;curved=1;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-51" target="CrBskSO4nDhFndBRX1B0-46" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1990" y="870" />
+              <mxPoint x="1990" y="740" />
+              <mxPoint x="1700" y="740" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-49" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;5c - Mutate&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="CrBskSO4nDhFndBRX1B0-48" vertex="1" connectable="0">
+          <mxGeometry x="0.1765" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;curved=1;dashed=1;dashPattern=12 12;" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-51" target="CrBskSO4nDhFndBRX1B0-52" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-51" value="5b - GraphQL mutate (upsert)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="1520" y="840" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-52" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;&lt;div&gt;POST v1/graphql&lt;/div&gt;&lt;div&gt;Content-Type: application/json&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;X-Hasura-Role: admin&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;X-Hasura-Admin-Secret: myadminsecretket&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;query&quot;: &quot;mutation InsertRole($component_id: String = \&quot;\&quot;, $graphql_root_field_name: String = \&quot;\&quot;, $role_id: String = \&quot;\&quot;) {\n&amp;nbsp; insert_roles_one(object: {component_id: $component_id, graphql_root_field_name: $graphql_root_field_name, role_id: $role_id}, on_conflict: {constraint: roles_pkey, update_columns: [component_id, graphql_root_field_name], where: {graphql_root_field_name: {_eq: $graphql_root_field_name}, _and: {component_id: {_eq: $component_id}}}}) {\n&amp;nbsp; &amp;nbsp; component_id\n&amp;nbsp; &amp;nbsp; graphql_root_field_name\n&amp;nbsp; &amp;nbsp; role_id\n&amp;nbsp; }\n}&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;variables&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;role_id&quot;:&quot;dom1.dp1.0.op.readrole&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;component_id&quot;: &quot;urn:dmb:cmp:dom1:dp1:0:op&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;graphql_root_field_name&quot;: &quot;dom1_dp1_0_op&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;operationName&quot;: &quot;InsertRole&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=14;fontColor=default;align=left;verticalAlign=top;size=0.109375;spacingLeft=4;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="1877" y="1080" width="400" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="JZihHBsl7QY_d6qNJ1pM-2" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="CrBskSO4nDhFndBRX1B0-1" source="CrBskSO4nDhFndBRX1B0-35" target="CrBskSO4nDhFndBRX1B0-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="860" y="270" />
+              <mxPoint x="160" y="270" />
+              <mxPoint x="160" y="460" />
+            </Array>
+            <mxPoint x="960" y="99" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JZihHBsl7QY_d6qNJ1pM-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Idempotent, ie does not fail if something it provisions already exists.&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;" vertex="1" parent="CrBskSO4nDhFndBRX1B0-1">
+          <mxGeometry x="40" y="210" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="CrBskSO4nDhFndBRX1B0-36" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1 - Provisioning&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;request for OP&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="CrBskSO4nDhFndBRX1B0-1" vertex="1">
+          <mxGeometry x="90" y="350" width="180" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Q4rrBzDeg56sykpWt6Mj" name="Role mapping">
+    <mxGraphModel dx="3585" dy="2198" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vT4-BrW5wjlSzqgEokwf-1" value="&lt;font style=&quot;font-size: 24px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;roles&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;table style=&quot;border: 1px solid rgb(0, 0, 0); border-collapse: collapse; font-size: 16px;&quot; border=&quot;1&quot; cellpadding=&quot;20&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;role_id&lt;br&gt;String&lt;br&gt;Primary key&lt;/font&gt;&lt;/td&gt;&lt;td style=&quot;border-collapse: collapse;&quot; border=&quot;1&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;component_id&lt;br&gt;String&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;graphql_root_field_name&lt;br&gt;String&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;dom1.dp1.0.op.readrole&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;urn:dmb:cmp:dom1:dp1:0:op&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;dom1_dp1_0_op&lt;/font&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;dom1.dp2.0.op.readrole&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;urn:dmb:cmp:dom1:dp2:0:op&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;dom1_dp2_0_op&lt;/font&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1300" y="360" width="760" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lE3ARTR8vD05fQ9E-uLU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="lE3ARTR8vD05fQ9E-uLU-2" target="vT4-BrW5wjlSzqgEokwf-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lE3ARTR8vD05fQ9E-uLU-2" value="&lt;font style=&quot;font-size: 24px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;user_roles&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;table style=&quot;border: 1px solid rgb(0, 0, 0); border-collapse: collapse; font-size: 16px;&quot; border=&quot;1&quot; cellpadding=&quot;20&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;user&lt;br&gt;String&lt;br&gt;Primary key&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;role_id&lt;br&gt;String&lt;br&gt;Primary key&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;user:user1&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;dom1.dp1.0.op.readrole&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;user:user1&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;dom1.dp2.0.op.readrole&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1200" y="920" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="lE3ARTR8vD05fQ9E-uLU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;" parent="1" source="lE3ARTR8vD05fQ9E-uLU-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1680" y="719.9999999999998" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1940" y="820" />
+              <mxPoint x="1680" y="820" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lE3ARTR8vD05fQ9E-uLU-6" value="Foreign key: role_id -&amp;gt; role_id" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="lE3ARTR8vD05fQ9E-uLU-5" vertex="1" connectable="0">
+          <mxGeometry x="0.3402" y="-1" relative="1" as="geometry">
+            <mxPoint x="-42" y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lE3ARTR8vD05fQ9E-uLU-3" value="&lt;font style=&quot;font-size: 24px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;group_roles&lt;/font&gt;&lt;br&gt;&lt;br&gt;&lt;table style=&quot;border: 1px solid rgb(0, 0, 0); border-collapse: collapse; font-size: 16px;&quot; border=&quot;1&quot; cellpadding=&quot;20&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;group&lt;br&gt;String&lt;br&gt;Primary key&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;role_id&lt;br&gt;String&lt;br&gt;Primary key&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;group:group1&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font style=&quot;font-size: 16px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;dom1.dp1.0.op.readrole&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;font face=&quot;Nunito&quot;&gt;group:group1&lt;/font&gt;&lt;/td&gt;&lt;td&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;dom1.dp2.0.op.readrole&lt;br&gt;&lt;/font&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;verticalAlign=middle;" parent="1" vertex="1">
+          <mxGeometry x="1720" y="920" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="3UXpXB0MGvs8yc0u62Oo-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot; style=&quot;font-size: 28px;&quot;&gt;The roles table contains the role id and other information on each role, namely the corresponding component id and GraphQL root field; this is used in sanity checks to ensure multiple components are not using the same role, as well as for retrieving the correct role.&lt;br style=&quot;border-color: var(--border-color); font-size: 28px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 28px;&quot;&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;The user_roles &amp;amp; group_roles types map user &amp;amp; groups to sets of roles. The roles for a user are the set union of the user&#39;s roles (ie assigned to the user) and group roles (ie assigned to any of the user&#39;s groups).&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 28px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 28px;&quot;&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;The user and group identifiers in these tables are in the format used by Witboost (ie, user:user1 &amp;amp; group:group1 ); the translation from the format used by the IdP (and thus used in the JWT) to this format has to be done by the Webhook.&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 28px;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color); font-size: 28px;&quot;&gt;&lt;span style=&quot;font-size: 28px;&quot;&gt;Data is stored in tables in underlying PG database. Permission to read/write is needed only by the role mapping part of the microservice.&lt;br&gt;&lt;br&gt;These tables are tracked in Hasura and queried/manipulated via their GraphQL endpoints.&lt;br&gt;&lt;/span&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=28;align=left;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
+          <mxGeometry x="160" y="480" width="920" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="yHjoPAYD_z9fx8H9CPIE-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Mapping queries (which query by user/group) are far more frequent than updates (which update by role id), hence the decision to have the user/group as the first PK column, as it makes lookups slighly faster.&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;align=left;spacingLeft=4;spacingRight=4;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="1320" width="400" height="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="4MfTk1-cCXFpfWz0MLc8" name="ACL update">
+    <mxGraphModel dx="2390" dy="1465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zppjUh2EKS-3gajL1Mez-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="zppjUh2EKS-3gajL1Mez-29" target="zppjUh2EKS-3gajL1Mez-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zppjUh2EKS-3gajL1Mez-28" value="Grant access" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="zppjUh2EKS-3gajL1Mez-27" vertex="1" connectable="0">
+          <mxGeometry x="-0.0027" y="-2" relative="1" as="geometry">
+            <mxPoint y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zppjUh2EKS-3gajL1Mez-29" value="DP team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=16;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="280" y="68.75" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zppjUh2EKS-3gajL1Mez-30" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="zppjUh2EKS-3gajL1Mez-32" target="zppjUh2EKS-3gajL1Mez-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zppjUh2EKS-3gajL1Mez-31" value="Update ACL" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="zppjUh2EKS-3gajL1Mez-30" vertex="1" connectable="0">
+          <mxGeometry x="0.3239" relative="1" as="geometry">
+            <mxPoint x="-19" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zppjUh2EKS-3gajL1Mez-32" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Witboost&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=middle;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="440" y="36.25" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="zppjUh2EKS-3gajL1Mez-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="zppjUh2EKS-3gajL1Mez-34" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1025" y="270" />
+              <mxPoint x="80" y="270" />
+              <mxPoint x="80" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-43" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;1 - ACL Update request&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="zppjUh2EKS-3gajL1Mez-33" vertex="1" connectable="0">
+          <mxGeometry x="0.5883" y="6" relative="1" as="geometry">
+            <mxPoint x="64" y="81" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zppjUh2EKS-3gajL1Mez-34" value="Provisioning Coordinator" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Nunito;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="760" y="37.5" width="200" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Hasura SP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="280" y="360" width="680" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-2" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Hasura&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="200" width="440" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-3" value="2 - Retrieve details for component and dependent component (Snowflake OP)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="310" y="430" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-4" value="3 - Validate ACL update request" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="310" y="510" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kIsCVR89yG08E1FIDRbP-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;fontSize=16;curved=1;" parent="1" source="NL9DPKaypUF1Vc1CipLj-8" target="kIsCVR89yG08E1FIDRbP-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kIsCVR89yG08E1FIDRbP-3" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;4a - Fetch roles&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="kIsCVR89yG08E1FIDRbP-2" vertex="1" connectable="0">
+          <mxGeometry x="0.0551" y="-6" relative="1" as="geometry">
+            <mxPoint x="12" y="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8I-Af4aKyTL9r9_hsnB-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;dashed=1;dashPattern=12 12;" parent="1" source="NL9DPKaypUF1Vc1CipLj-8" target="NL9DPKaypUF1Vc1CipLj-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="620" />
+              <mxPoint x="1020" y="960" />
+              <mxPoint x="720" y="960" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-8" value="4 - Fetch role for component" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="310" y="590" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-9" value="&lt;div&gt;Validations:&lt;/div&gt;&lt;ul&gt;&lt;li&gt;Check data source exists on Hasura&lt;/li&gt;&lt;li&gt;Check Snowflake OP is from the same DP&lt;/li&gt;&lt;li&gt;Check configuration for root fileds is valid for GraphQL&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;verticalAlign=top;spacingLeft=4;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="40" y="1080" width="400" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="WvBKPGEd3Q9IMIrAAgts-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;" parent="1" source="NL9DPKaypUF1Vc1CipLj-13" target="WvBKPGEd3Q9IMIrAAgts-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WvBKPGEd3Q9IMIrAAgts-3" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;6a - Update group roles&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Architects Daughter;fontColor=default;" parent="WvBKPGEd3Q9IMIrAAgts-2" vertex="1" connectable="0">
+          <mxGeometry x="0.0465" y="-4" relative="1" as="geometry">
+            <mxPoint x="43" y="-40" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8I-Af4aKyTL9r9_hsnB-3" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;dashed=1;dashPattern=12 12;" parent="1" source="NL9DPKaypUF1Vc1CipLj-13" target="WvBKPGEd3Q9IMIrAAgts-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-13" value="6 - Execute update_group_roles request" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="310" y="750" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-20" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1840" y="480" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-21" value="7 - Complete" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="310" y="827" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-22" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="860" as="targetPoint" />
+            <mxPoint x="280" y="857" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="40" y="857" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-23" value="&lt;font style=&quot;font-size: 20px;&quot;&gt;8 - Send response&lt;br&gt;on polling&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="NL9DPKaypUF1Vc1CipLj-22" vertex="1" connectable="0">
+          <mxGeometry x="0.1516" y="1" relative="1" as="geometry">
+            <mxPoint y="-31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https://fonts.googleapis.com/css?family=Architects+Daughter;fontSize=16;curved=1;" parent="1" source="NL9DPKaypUF1Vc1CipLj-29" target="NL9DPKaypUF1Vc1CipLj-40" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-28" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot;&gt;5a - Update user roles&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="NL9DPKaypUF1Vc1CipLj-27" vertex="1" connectable="0">
+          <mxGeometry y="4" relative="1" as="geometry">
+            <mxPoint x="31" y="-25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8I-Af4aKyTL9r9_hsnB-2" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;dashed=1;dashPattern=12 12;" parent="1" source="NL9DPKaypUF1Vc1CipLj-29" target="WvBKPGEd3Q9IMIrAAgts-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-29" value="5 - Execute update_user_roles request" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="310" y="670" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-30" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Webhook/RoleMapper&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="1480" y="560" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-31" value="" style="group;fontFamily=Nunito;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="2000" y="230" width="277" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-32" value="PostgreSQL" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;hachureGap=4;fontFamily=Nunito;fontSize=20;sketch=1;curveFitting=1;jiggle=2;verticalAlign=bottom;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="NL9DPKaypUF1Vc1CipLj-31" vertex="1">
+          <mxGeometry y="-28.42105263157895" width="277" height="198.94736842105266" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-33" value="&lt;ul style=&quot;border-color: var(--border-color);&quot;&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;roles&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;user_roles&lt;/span&gt;&lt;/li&gt;&lt;li style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;group_roles&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https://fonts.googleapis.com/css?family=Nunito;align=left;spacingLeft=8;" parent="NL9DPKaypUF1Vc1CipLj-31" vertex="1">
+          <mxGeometry x="40.96" y="9.473684210526317" width="195.07" height="113.6842105263158" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Architects Daughter;fontSource=https://fonts.googleapis.com/css?family=Architects+Daughter;fontSize=16;curved=1;" parent="1" source="NL9DPKaypUF1Vc1CipLj-35" target="NL9DPKaypUF1Vc1CipLj-33" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-35" value="&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;roles&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;user_roles&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;group_roles&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https://fonts.googleapis.com/css?family=Nunito;align=left;spacingLeft=8;" parent="1" vertex="1">
+          <mxGeometry x="1560" y="280" width="280" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-36" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;GET v1/role/component_id/urn:dmb:cmp:dom1:dp1:0:op&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;The provisioner can actually skip this if he knows the role name (eg because it is based on a naming convention).&lt;/font&gt;&lt;/div&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=14;fontColor=default;align=left;verticalAlign=top;size=0.109375;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="520" y="1080" width="400" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https://fonts.googleapis.com/css?family=Architects+Daughter;fontSize=16;curved=1;" parent="1" source="NL9DPKaypUF1Vc1CipLj-40" target="NL9DPKaypUF1Vc1CipLj-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1880" y="700" />
+              <mxPoint x="2120" y="700" />
+              <mxPoint x="2120" y="500" />
+              <mxPoint x="1700" y="500" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-38" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;5c - Mutate user_roles&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Architects Daughter;" parent="NL9DPKaypUF1Vc1CipLj-37" vertex="1" connectable="0">
+          <mxGeometry x="0.1765" y="-1" relative="1" as="geometry">
+            <mxPoint x="114" y="121" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https://fonts.googleapis.com/css?family=Architects+Daughter;fontSize=16;curved=1;dashed=1;dashPattern=12 12;" parent="1" source="NL9DPKaypUF1Vc1CipLj-40" target="NL9DPKaypUF1Vc1CipLj-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2020" y="750" />
+              <mxPoint x="2020" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-40" value="5b - GraphQL mutate (upsert)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="720" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="NL9DPKaypUF1Vc1CipLj-41" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;&lt;div&gt;POST v1/graphql&lt;/div&gt;&lt;div&gt;Content-Type: application/json&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;X-Hasura-Role: admin&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;X-Hasura-Admin-Secret: myadminsecretkey&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;query&quot;: &quot;mutation UpdateUserRole($user: String = \&quot;\&quot;, $role_id: String = \&quot;\&quot;, $last_update: timestamptz = now) {\n&amp;nbsp; insert_user_roles(objects: {last_update: $last_update, role_id: $role_id, user: $user}, on_conflict: {constraint: user_roles_pkey, update_columns: last_update, where: {}}) {\n&amp;nbsp; &amp;nbsp; returning {\n&amp;nbsp; &amp;nbsp; &amp;nbsp; last_update\n&amp;nbsp; &amp;nbsp; &amp;nbsp; role_id\n&amp;nbsp; &amp;nbsp; &amp;nbsp; user\n&amp;nbsp; &amp;nbsp; }\n&amp;nbsp; }\n}&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;variables&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;role&quot;:&quot;dom1.dp1.0.op.readrole&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;user&quot;: &quot;user:user1&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;operationName&quot;: &quot;UpdateUserRole&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Above mutation is repeated for every user (can use bulk queries); group updates work the same way, only on group_roles.&lt;br&gt;&lt;br&gt;If a user &amp;amp; group are not mapped to a role anymore according to the request, we must also remove the previous&amp;nbsp; mapping (omitted to avoid excessive clutter)&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=14;fontColor=default;align=left;verticalAlign=top;size=0.109375;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="1877" y="1080" width="400" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="WvBKPGEd3Q9IMIrAAgts-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="kIsCVR89yG08E1FIDRbP-1" target="NL9DPKaypUF1Vc1CipLj-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1700" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1880" y="665" />
+              <mxPoint x="1970" y="665" />
+              <mxPoint x="1970" y="540" />
+              <mxPoint x="1700" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvBKPGEd3Q9IMIrAAgts-5" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;4c - Query roles&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Architects Daughter;fontColor=default;" parent="WvBKPGEd3Q9IMIrAAgts-4" vertex="1" connectable="0">
+          <mxGeometry x="-0.5792" y="13" relative="1" as="geometry">
+            <mxPoint x="43" y="-47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oQJ_LmqvhaXT0LUzJ9fU-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;dashed=1;dashPattern=12 12;" parent="1" source="kIsCVR89yG08E1FIDRbP-1" target="rPhJL4fWuzJp4htlgToK-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1960" y="665" />
+              <mxPoint x="1960" y="970" />
+              <mxPoint x="1600" y="970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kIsCVR89yG08E1FIDRbP-1" value="4b - GraphQL query" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="640" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WvBKPGEd3Q9IMIrAAgts-8" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="WvBKPGEd3Q9IMIrAAgts-1" target="NL9DPKaypUF1Vc1CipLj-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1880" y="760" />
+              <mxPoint x="2280" y="760" />
+              <mxPoint x="2280" y="460" />
+              <mxPoint x="1700" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvBKPGEd3Q9IMIrAAgts-9" value="&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;6c - Mutate group_roles&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Architects Daughter;fontColor=default;" parent="WvBKPGEd3Q9IMIrAAgts-8" vertex="1" connectable="0">
+          <mxGeometry x="-0.217" y="2" relative="1" as="geometry">
+            <mxPoint x="-58" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R8I-Af4aKyTL9r9_hsnB-4" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=16;fontColor=default;endArrow=classic;dashed=1;dashPattern=12 12;" parent="1" source="WvBKPGEd3Q9IMIrAAgts-1" target="NL9DPKaypUF1Vc1CipLj-41" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2010" y="831" />
+              <mxPoint x="2010" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WvBKPGEd3Q9IMIrAAgts-1" value="6b - GraphQL mutate (upsert)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https://fonts.googleapis.com/css?family=Nunito;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="802" width="360" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="WvBKPGEd3Q9IMIrAAgts-6" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;For users:&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;PUT v1/user_roles&lt;br style=&quot;font-size: 14px;&quot;&gt;Content-Type: application/json&lt;br style=&quot;font-size: 14px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &quot;role&quot;:&quot;dom1.dp1.0.op.readrole&quot;,&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &quot;users&quot;: [&quot;user:user1&quot;, &quot;user:user2&quot;]&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;}&lt;/div&gt;&lt;br&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot;&gt;&lt;font face=&quot;Nunito&quot;&gt;For groups:&lt;/font&gt;&lt;br&gt;PUT v1/group_roles&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;Content-Type: application/json&lt;br&gt;&lt;/font&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;role&quot;:&quot;dom1.dp1.0.op.readrole&quot;,&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp; &quot;groups&quot;: [&quot;group:group1&quot;, &quot;group:group2&quot;]&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;}&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=14;fontColor=default;align=left;verticalAlign=top;size=0.109375;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="960" y="1080" width="400" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rPhJL4fWuzJp4htlgToK-1" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 14px; background-color: initial;&quot;&gt;&lt;div&gt;POST v1/graphql&lt;/div&gt;&lt;div&gt;Content-Type: application/json&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;X-Hasura-Role: admin&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;X-Hasura-Admin-Secret: myadminsecretkey&lt;br&gt;&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;query&quot;: &quot;query GetRole($component_id: String) {\n&amp;nbsp; roles(where: {component_id: {_eq: $component_id}}) {\n&amp;nbsp; &amp;nbsp; component_id\n&amp;nbsp; &amp;nbsp; graphql_root_field_name\n&amp;nbsp; &amp;nbsp; role_id\n&amp;nbsp; }\n}&quot;,&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;variables&quot;: {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &quot;component_id&quot;: &quot;urn:dmb:cmp:dom1:dp1:0:op&quot;&lt;/div&gt;&lt;div&gt;&amp;nbsp; },&lt;/div&gt;&lt;div&gt;&amp;nbsp; &quot;operationName&quot;: &quot;GetRole&quot;&lt;/div&gt;&lt;div&gt;}&lt;/div&gt;&lt;/span&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=14;fontColor=default;align=left;verticalAlign=top;size=0.109375;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="1437" y="1080" width="400" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="YV39-lS1-KHimagSrj8C-1" value="&lt;p style=&quot;font-size: 16px;&quot;&gt;We need to use the admin role for these queries, otherwise we end up in an infinte loop.&lt;br&gt;Since we&#39;re managing role mappings, we&#39;re highly privileged in that sense anyway.&lt;br&gt;&lt;br&gt;We&#39;ll se multiple admin secrets.&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;spacingRight=3;" parent="1" vertex="1">
+          <mxGeometry x="2080" y="802" width="197" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OcpdlM7iNF34bvtiSBFf-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Update means both adding and removing role mappings; handled by the Role Mapper&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;position2=1;base=50;size=30;position=0.65;align=center;" vertex="1" parent="1">
+          <mxGeometry x="60" y="580" width="230" height="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="3scdrB6iqD7egWVg3LSE" name="Authentication and authorization">
+    <mxGraphModel dx="1434" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fns5pH3Z982KPZWq28bm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Nunito;fontSize=16;exitX=1;exitY=0.25;exitDx=0;exitDy=0;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;curved=1;" parent="1" source="Fns5pH3Z982KPZWq28bm-1" target="Fns5pH3Z982KPZWq28bm-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-8" value="2 - Original HTTP headers +&lt;br&gt;request body (POST mode)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="Fns5pH3Z982KPZWq28bm-7" vertex="1" connectable="0">
+          <mxGeometry x="-0.2151" y="-2" relative="1" as="geometry">
+            <mxPoint x="39" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Hasura&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#b0e3e6;strokeColor=#0e8088;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="520" y="360" width="440" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontFamily=Nunito;fontSize=16;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;curved=1;" parent="1" source="Fns5pH3Z982KPZWq28bm-17" target="Fns5pH3Z982KPZWq28bm-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-19" value="&lt;div style=&quot;text-align: left;&quot;&gt;7 - Response 200 ok + session vars:&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot; tabindex=&quot;0&quot; class=&quot;prism-code language-http codeBlock_bY9V thin-scrollbar&quot;&gt;&lt;code style=&quot;&quot; class=&quot;codeBlockLines_e6Vv&quot;&gt;&lt;div style=&quot;font-size: 14px; text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Courier New&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot; class=&quot;token application-json punctuation&quot;&gt;{&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap;&quot; class=&quot;token-line&quot;&gt;&lt;span class=&quot;token application-json property&quot;&gt;&quot;X-Hasura-User-Id&quot;&lt;/span&gt;&lt;span class=&quot;token application-json operator&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;token application-json&quot;&gt; &lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;token application-json string&quot;&gt;&quot;username&quot;&lt;/span&gt;&lt;span style=&quot;&quot; class=&quot;token application-json punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Courier New&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot;&gt;&lt;span class=&quot;token-line&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot; class=&quot;token application-json&quot;&gt;    &lt;/span&gt;&lt;span style=&quot;white-space: nowrap;&quot; class=&quot;token application-json property&quot;&gt;&quot;X-Hasura-Role&quot;&lt;/span&gt;&lt;span style=&quot;white-space: nowrap;&quot; class=&quot;token application-json operator&quot;&gt;:&lt;/span&gt;&lt;span style=&quot;white-space: nowrap;&quot; class=&quot;token application-json&quot;&gt; &lt;/span&gt;&lt;span style=&quot;white-space: nowrap;&quot; class=&quot;token application-json string&quot;&gt;&quot;role&quot;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;}&lt;/div&gt;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;&quot; class=&quot;token-line&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;white-space: nowrap;&quot;&gt;&lt;font style=&quot;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot;&gt;&lt;br&gt;&lt;font style=&quot;font-size: 20px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;or 401 unauthorized.&lt;/font&gt;&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;span style=&quot;font-size: 14px;&quot; class=&quot;token application-json&quot;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="Fns5pH3Z982KPZWq28bm-18" vertex="1" connectable="0">
+          <mxGeometry x="0.3341" y="3" relative="1" as="geometry">
+            <mxPoint x="3" y="91" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-2" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Webhook/RoleMapper&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#e1d5e7;strokeColor=#9673a6;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="360" width="440" height="820" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Nunito;fontSize=16;entryX=0;entryY=0.25;entryDx=0;entryDy=0;curved=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="Fns5pH3Z982KPZWq28bm-4" target="Fns5pH3Z982KPZWq28bm-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-6" value="1 - HTTP request with headers:&lt;br&gt;&lt;ul&gt;&lt;li&gt;Authorization with a JWT&lt;/li&gt;&lt;li&gt;&lt;u&gt;X-Hasura-Role (optional)&lt;/u&gt;&lt;/li&gt;&lt;/ul&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="Fns5pH3Z982KPZWq28bm-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.1682" y="-6" relative="1" as="geometry">
+            <mxPoint x="24" y="-71" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-4" value="Client" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#000000;shadow=0;dashed=0;shape=mxgraph.ios7.icons.monitor;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="40" y="450" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-9" value="&lt;p&gt;The configured webhook is &lt;strong&gt;ignored&lt;/strong&gt; when the &lt;code&gt;&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Architects+Daughter&quot;&gt;X-Hasura-Admin-Secret&lt;/font&gt;&lt;/code&gt; header is found in the request and admin access is granted.&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="560" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-11" value="References:&lt;br&gt;&lt;ul&gt;&lt;li&gt;https://hasura.io/docs/latest/auth/authentication/webhook/&lt;/li&gt;&lt;li&gt;https://github.com/hasura/graphql-engine/tree/master/community/boilerplates/auth-webhooks&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;verticalAlign=top;spacingLeft=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="1280" width="680" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Nunito;fontSize=16;curved=1;startArrow=classic;startFill=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="Fns5pH3Z982KPZWq28bm-12" target="Fns5pH3Z982KPZWq28bm-14" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2030" y="495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-12" value="3 - Validate JWT token" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="467.5" width="360" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-14" value="JWKS for JWT&lt;br&gt;validation from URI." style="ellipse;shape=cloud;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1980" y="360" width="270" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-15" value="4 - Extract user and group claims from JWT token" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="550" width="360" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Nunito;fontSize=16;startArrow=classic;startFill=1;curved=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="Fns5pH3Z982KPZWq28bm-16" target="Fns5pH3Z982KPZWq28bm-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-21" value="5a - GraphQL query on&lt;br&gt;user_roles/group_roles/roles" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;fontFamily=Nunito;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="Fns5pH3Z982KPZWq28bm-20" vertex="1" connectable="0">
+          <mxGeometry x="0.0197" y="3" relative="1" as="geometry">
+            <mxPoint x="-9" y="-32" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-16" value="5 - Fetch roles for user and for user&#39;s groups from Hasura endpoint, create role set for user" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="630" width="360" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-17" value="6 - Send back session variables or unauthorized" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="1090" width="360" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Fns5pH3Z982KPZWq28bm-22" value="&lt;ul&gt;&lt;li&gt;user_roles&lt;/li&gt;&lt;li&gt;group_roles&lt;/li&gt;&lt;li&gt;roles&lt;/li&gt;&lt;/ul&gt;" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="560" y="550" width="360" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tyLR5ye28ZPh_q9BCfve-1" value="&lt;br&gt;We use webhook mode as JWT mode requires customization on the IdP side to add Hasura&#39;s custom claims, and with some IdP applying custom logic to generate these claims is hard to do; also it would be too technology specific." style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;verticalAlign=top;spacingLeft=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="680" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1Hz2pvpAg5QXJksJAmxD-1" value="6 - Check if set is empty; if true, answer unauthorized" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="780" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1Hz2pvpAg5QXJksJAmxD-2" value="7 - Parse GraphQL query and extract root field names (can be more than one)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="870" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="1Hz2pvpAg5QXJksJAmxD-3" value="8 - Check if role for root fields is same for all root fields and it is present in theuser&#39;s role set" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1440" y="980" width="360" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9_n14GUkeJg-Sx2ho91i-1" value="&lt;p&gt;If client sends a mutation, request is denied: Output Ports only allow reading.&lt;/p&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=4;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1880" y="840" width="400" height="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JFTHMDKPFQJg1M25kRu8" name="Granular permissions">
+    <mxGraphModel dx="1434" dy="879" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2336" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Iry-JbocbndnRMPfHS0G-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot; style=&quot;font-size: 32px;&quot;&gt;Out of scope for first release&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=32;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="40" y="40" width="720" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IKkqkJZtFkRS_N_pbepe-1" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Permissions discussed up to now are based on 1-1 mapping between Output Port and a role. This enables control of data access in an all-or-nothing fashion.&lt;br&gt;&lt;br&gt;To enable more granular control, multiple roles can be used.&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;align=left;" parent="1" vertex="1">
+          <mxGeometry x="40" y="240" width="880" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="a9gbaFiPcMs0bOEPVvgt-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="a9gbaFiPcMs0bOEPVvgt-3" target="a9gbaFiPcMs0bOEPVvgt-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9gbaFiPcMs0bOEPVvgt-2" value="1 - Requests access,&lt;br&gt;&amp;nbsp;specifying one of the roles&lt;br&gt;available for the OP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="a9gbaFiPcMs0bOEPVvgt-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.0027" y="-2" relative="1" as="geometry">
+            <mxPoint x="3" y="-39" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9gbaFiPcMs0bOEPVvgt-3" value="Consumer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=16;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="930" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="a9gbaFiPcMs0bOEPVvgt-4" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="a9gbaFiPcMs0bOEPVvgt-6" target="a9gbaFiPcMs0bOEPVvgt-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="a9gbaFiPcMs0bOEPVvgt-5" value="3 - Update ACL (unchanged)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="a9gbaFiPcMs0bOEPVvgt-4" vertex="1" connectable="0">
+          <mxGeometry x="0.3239" relative="1" as="geometry">
+            <mxPoint x="-19" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="a9gbaFiPcMs0bOEPVvgt-6" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Witboost&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=middle;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1600" y="910" width="200" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="a9gbaFiPcMs0bOEPVvgt-7" value="Provisioning Coordinator" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Nunito;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="2040" y="1080" width="200" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="drb0qEbLhiiy57UUQhWm-1" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="drb0qEbLhiiy57UUQhWm-3" target="a9gbaFiPcMs0bOEPVvgt-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500" y="1170.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drb0qEbLhiiy57UUQhWm-2" value="2 - Grant access" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="drb0qEbLhiiy57UUQhWm-1" vertex="1" connectable="0">
+          <mxGeometry x="-0.0027" y="-2" relative="1" as="geometry">
+            <mxPoint y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drb0qEbLhiiy57UUQhWm-3" value="DP team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=16;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="1340" y="1060" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="drb0qEbLhiiy57UUQhWm-5" value="" style="endArrow=none;dashed=1;html=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;spacing=2;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1168" y="1520" as="sourcePoint" />
+            <mxPoint x="1168" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="drb0qEbLhiiy57UUQhWm-6" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Needs customizable access requests; roadmap TBC&lt;/font&gt;" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1400" y="760" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-1" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Hasura SP&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=top;fillColor=#bac8d3;strokeColor=#23445d;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="50" y="890" width="680" height="486.25" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-13" value="6 - Execute snowflake_create_select_permission request &lt;i&gt;for every OP role&lt;/i&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1075.63" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-17" value="&lt;div style=&quot;font-size: 14px;&quot;&gt;POST v1/metadata&lt;br style=&quot;font-size: 14px;&quot;&gt;Content-Type: application/json&lt;br style=&quot;font-size: 14px;&quot;&gt;X-Hasura-Role: admin&lt;br style=&quot;font-size: 14px;&quot;&gt;X-Hasura-Admin-Secret: myadminsecretkey&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;type&quot;:&quot;snowflake_create_select_permission&quot;,&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp;&quot;args&quot;:{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;table&quot;:[&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;VACCINE&quot;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; ],&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;role&quot;: &quot;dom1.dp1.0.op.readrole&quot;,&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;permission&quot;:{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;columns&quot;:[&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;lt;column rules for role&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;],&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;filter&quot;:{&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&amp;lt;filter rules for role&amp;gt;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;},&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;set&quot;:[&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;],&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&quot;allow_aggregations&quot;:false&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; },&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &quot;source&quot;:&quot;snowflake&quot;&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&amp;nbsp; &amp;nbsp;}&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;}&lt;/div&gt;&lt;div style=&quot;font-size: 14px;&quot;&gt;&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;/div&gt;&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Courier New;fontSize=14;fontColor=default;align=left;verticalAlign=top;size=0.109375;spacingLeft=4;" parent="1" vertex="1">
+          <mxGeometry x="750" y="890" width="400" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-27" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="K7vmUmBkwOi1YUU9I-9l-29" target="K7vmUmBkwOi1YUU9I-9l-32" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-28" value="Deploy DP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="K7vmUmBkwOi1YUU9I-9l-27" vertex="1" connectable="0">
+          <mxGeometry x="-0.0027" y="-2" relative="1" as="geometry">
+            <mxPoint y="-22" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-29" value="DP team" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=16;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="250" y="602.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-30" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" source="K7vmUmBkwOi1YUU9I-9l-32" target="K7vmUmBkwOi1YUU9I-9l-34" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-31" value="Deploy DP" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="K7vmUmBkwOi1YUU9I-9l-30" vertex="1" connectable="0">
+          <mxGeometry x="0.3239" relative="1" as="geometry">
+            <mxPoint x="-19" y="-19" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-32" value="&lt;font style=&quot;font-size: 36px;&quot;&gt;Witboost&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;verticalAlign=middle;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="410" y="570" width="200" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-33" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K7vmUmBkwOi1YUU9I-9l-35" target="K7vmUmBkwOi1YUU9I-9l-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="250" y="1033.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-34" value="Provisioning Coordinator" style="whiteSpace=wrap;html=1;fontSize=20;fontFamily=Nunito;fillColor=#e3c800;strokeColor=#B09500;fontColor=#000000;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="730" y="571.25" width="200" height="122.5" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-39" value="5 - Execute create_role request &lt;i&gt;for every OP role&lt;/i&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Nunito;fontSize=20;align=left;spacingLeft=8;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="80" y="990" width="620" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-52" value="&lt;font style=&quot;font-size: 30px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Provisioning (simplified)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="375" y="510" width="350" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-53" value="&lt;font style=&quot;font-size: 30px;&quot; data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;ACL update (simplified)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=20;fontFamily=Architects Daughter;fontColor=default;" parent="1" vertex="1">
+          <mxGeometry x="1635" y="510" width="340" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-54" value="&lt;font data-font-src=&quot;https://fonts.googleapis.com/css?family=Nunito&quot; face=&quot;Nunito&quot;&gt;Other steps unchanged&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;strokeColor=default;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontSize=20;fontColor=default;fillColor=default;" parent="1" vertex="1">
+          <mxGeometry x="80" y="1220" width="620" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-55" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=default;strokeColor=default;fontFamily=Nunito;fontSize=16;fontColor=default;endArrow=classic;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="K7vmUmBkwOi1YUU9I-9l-34" target="K7vmUmBkwOi1YUU9I-9l-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="746" as="targetPoint" />
+            <mxPoint x="830" y="694" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K7vmUmBkwOi1YUU9I-9l-35" value="&lt;meta charset=&quot;utf-8&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1 - Provisioning&lt;/span&gt;&lt;br style=&quot;border-color: var(--border-color); color: rgb(0, 0, 0); font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-size: 20px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;request for OP&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontSize=16;fontFamily=Nunito;fontColor=default;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DNunito;" parent="1" vertex="1">
+          <mxGeometry x="630" y="690" width="180" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

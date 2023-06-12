@@ -1,0 +1,392 @@
+openapi: 3.0.3
+info:
+  title: Hasura Authentication Webhook & Role Mapping Microservice
+  description: "Microservice responsible for Hasura webhook-based authentication and role mapping."
+  version: "{{version}}"
+servers:
+  - url: /datamesh.specificprovisioner
+tags:
+  - name: AuthenticationWebhook
+    description: All authentication related operations
+  - name: RoleMapper
+    description: All role mapping related operations
+  - name: Health
+    description: All health related operations
+paths:
+  /v1/health:
+    get:
+      tags:
+        - Health
+      summary: Health endpoint
+      description: Health endpoint, that ensures your application is up and running
+      responses:
+        200:
+          description: Success
+          content:
+            text/plain:
+              schema:
+                type: string
+                example: Alive
+        500:
+          description: Error
+  /v1/authenticate:
+    post:
+      tags:
+        - AuthenticationWebhook
+      summary: Authentication request sent by Hasura about a client
+      operationId: authenticate_request
+      requestBody:
+        description: Authentication request to handle
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AuthenticationRequest'
+        required: true
+      responses:
+        200:
+          description: Authentication request accepted, contains the X-Hasura-* variables
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthenticationResponse'
+        401:
+          description: Authentication request denied
+        400:
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ValidationError"
+        500:
+          description: System problem
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SystemError"
+  /v1/roles/{role_id}:
+    get:
+      tags:
+        - RoleMapper
+      summary: Get role by id
+      operationId: get_role_by_id
+      parameters:
+        - name: role_id
+          in: path
+          description: Role id
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: The requested role
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Role"
+        400:
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ValidationError"
+        404:
+          description: Requested role not found
+        500:
+          description: System problem
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SystemError"
+  /v1/roles:
+    put:
+      tags:
+        - RoleMapper
+      summary: Upsert a role for a given component id and GraphQL root field
+      operationId: upsert_role
+      requestBody:
+        description: Role to upsert
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Role"
+        required: true
+      responses:
+        200:
+          description: The upserted role
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Role"
+        400:
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ValidationError"
+        500:
+          description: System problem
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SystemError"
+  /v1/roles/component_id/{component_id}:
+    get:
+      tags:
+        - RoleMapper
+      summary: Get role by component id
+      operationId: get_role_by_component_id
+      parameters:
+        - name: component_id
+          in: path
+          description: Component id
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: The requested role
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Role"
+        400:
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ValidationError"
+        404:
+          description: Requested role not found
+        500:
+          description: System problem
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SystemError"
+  /v1/roles/graphql_root_field_name/{graphql_root_field_name}:
+    get:
+      tags:
+        - RoleMapper
+      summary: Get role by GraphQL root field name
+      operationId: get_role_by_graphql_root_field_name
+      parameters:
+        - name: graphql_root_field_name
+          in: path
+          description: GraphQL root field name
+          required: true
+          schema:
+            type: string
+      responses:
+        200:
+          description: The requested role
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Role"
+        400:
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ValidationError"
+        404:
+          description: Requested role not found
+        500:
+          description: System problem
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SystemError"
+  /v1/user_roles:
+    put:
+      tags:
+        - RoleMapper
+      summary: Upsert role mappings for users; adds mappings for all users listed but not already present, removes already present mappings for all unlisted users
+      operationId: upsert_user_roles
+      requestBody:
+        description: Role mappings to upsert
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/UserRoleMappings"
+        required: true
+      responses:
+        200:
+          description: The upserted role mappings
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UserRoleMappings"
+        400:
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ValidationError"
+        500:
+          description: System problem
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SystemError"
+  /v1/group_roles:
+    put:
+      tags:
+        - RoleMapper
+      summary: Upsert role mappings for groups; adds mappings for all groups listed but not already present, removes already present mappings for all unlisted groups
+      operationId: upsert_group_roles
+      requestBody:
+        description: Role mappings to upsert
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/GroupRoleMappings"
+        required: true
+      responses:
+        200:
+          description: The upserted role mappings
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/GroupRoleMappings"
+        400:
+          description: Invalid input
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/ValidationError"
+        500:
+          description: System problem
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/SystemError"
+components:
+  schemas:
+    AuthenticationRequest:
+      description: Authentication request sent by Hasura when using Webhook authentication in POST mode
+      type: object
+      required:
+        - headers
+        - request
+      properties:
+        headers:
+          type: object
+          required:
+            - Authorization
+          properties:
+            Authorization:
+              description: Standard HTTP Authorization header, Bearer schema, with JWT token
+              type: string
+              example:
+                "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c"
+        request:
+          type: object
+          required:
+            - query
+          properties:
+            query:
+              description: JSON-stringified GraphQL query
+              type: string
+              example: "query ProductById($id: uuid!) {\n  products_by_pk(id: $id) {\n    id\n    name\n  }\n}"
+            variables:
+              description: Variable values for the GraphQL query
+              type: object
+              additionalProperties: true
+              example:
+                id: "cd6be51c-65b6-11ed-a2f4-4b71f0d3d70f"
+            operationName:
+              description: Name of the operation
+              type: string
+              example: "ProductById"
+    AuthenticationResponse:
+      description: Authentication response sent by the Webhook to Hasura if authentication is successful
+      type: object
+      required:
+        - X-Hasura-User-Id
+        - X-Hasura-Role
+      properties:
+        X-Hasura-User-Id:
+          description: User identifier
+          type: string
+          example: "username"
+        X-Hasura-Role:
+          description: User role
+          type: string
+          example: "role1"
+    Role:
+      description: A role
+      type: object
+      required:
+        - role_id
+        - component_id
+        - graphql_root_field_name
+      properties:
+        role_id:
+          description: Role id
+          type: string
+          example: "dom1.dp1.0.op.readrole"
+        component_id:
+          description: Component id in Witboost
+          type: string
+          example: "urn:dmb:cmp:dom1:dp1:0:op"
+        graphql_root_field_name:
+          description: GraphQL root field name in Hasura
+          type: string
+          example: "dom1_dp1_0_op"
+    UserRoleMappings:
+      description: Mapping of role to users
+      type: object
+      required:
+        - role_id
+        - users
+      properties:
+        role_id:
+          description: Role id
+          type: string
+          example: "dom1.dp1.0.op.readrole"
+        users:
+          description: User list
+          type: array
+          items:
+            type: string
+          example: [
+            "user:user1",
+            "user:user2"
+          ]
+    GroupRoleMappings:
+      description: Mapping of role to groups
+      type: object
+      required:
+        - role_id
+        - groups
+      properties:
+        role_id:
+          description: Role id
+          type: string
+          example: "dom1.dp1.0.op.readrole"
+        groups:
+          description: Group list
+          type: array
+          items:
+            type: string
+          example: [
+            "group:group1",
+            "group:group2"
+          ]
+    ValidationError:
+      required:
+        - errors
+      type: object
+      properties:
+        errors:
+          type: array
+          items:
+            type: string
+    SystemError:
+      required:
+        - error
+      type: object
+      properties:
+        error:
+          type: string
