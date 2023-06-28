@@ -1,0 +1,89 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: {{ template "pythonsp.name" . }}
+{{- include "pythonsp.labels" . | nindent 4 }}
+  name: {{ template "pythonsp.fullname" . }}
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: {{ template "pythonsp.name" . }}
+  template:
+    metadata:
+      annotations:
+      labels:
+        app: {{ template "pythonsp.name" . }}
+{{- include "pythonsp.labels" . | nindent 8 }}
+    spec:
+      automountServiceAccountToken: false
+      {{- if .Values.dockerRegistrySecretName }}
+      imagePullSecrets:
+        - name: {{ .Values.dockerRegistrySecretName }}
+      {{- end}}
+      volumes:
+      containers:
+        - name: {{ .Chart.Name }}
+          image: {{ .Values.image.registry }}:{{ .Values.image.tag }}
+          imagePullPolicy: {{ .Values.image.pullPolicy }}
+          ports:
+            - name: http
+              containerPort: 5002
+              protocol: TCP
+          {{- if .Values.securityContext }}
+          securityContext: {{- toYaml .Values.securityContext | nindent 12 }}
+          {{- end }}
+          {{- if .Values.readinessProbe }}
+          readinessProbe: {{- toYaml .Values.readinessProbe | nindent 12 }}
+          {{- end }}
+          {{- if .Values.livenessProbe }}
+          livenessProbe: {{- toYaml .Values.livenessProbe | nindent 12 }}
+          {{- end }}
+          {{- if .Values.resources }}
+          resources: {{- toYaml .Values.resources | nindent 12 }}
+          {{- end }}
+          env:
+            - name: HASURA_ADMIN_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-hasura-sp-secrets
+                  key: HASURA_ADMIN_SECRET
+            - name: HASURA_URL
+              value: {{ .Values.hasura.url }}
+            - name: HASURA_TIMEOUT
+              value: {{ .Values.hasura.timeout }}
+            - name: ROLE_MAPPER_URL
+              value: {{ .Values.rolemapper.url }}
+            - name: ROLE_MAPPER_TIMEOUT
+              value: {{ .Values.rolemapper.timeout }}
+            - name: SNOWFLAKE_HOST
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-hasura-sp-snowflake-secrets
+                  key: SNOWFLAKE_HOST
+            - name: SNOWFLAKE_USER
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-hasura-sp-snowflake-secrets
+                  key: SNOWFLAKE_USER
+            - name: SNOWFLAKE_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-hasura-sp-snowflake-secrets
+                  key: SNOWFLAKE_PASSWORD
+            - name: SNOWFLAKE_WAREHOUSE
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-hasura-sp-snowflake-secrets
+                  key: SNOWFLAKE_WAREHOUSE
+            - name: SNOWFLAKE_ROLE
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Release.Name }}-hasura-sp-snowflake-secrets
+                  key: SNOWFLAKE_ROLE
+            - name: NAMESPACE
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.namespace
+          volumeMounts:

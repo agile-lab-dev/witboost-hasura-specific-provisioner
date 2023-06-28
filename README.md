@@ -69,3 +69,4 @@ In order to import the project, use the standard "Open..." dialog and point PyCh
 
 - To configure the `OpenTelemetry framework` refer to the [OpenTelemetry Setup](hasura-specific-provisioner/docs/opentelemetry.md).
 - To build an `image` and run the `docker container` refer to [Docker Setup](hasura-specific-provisioner/docs/docker.md).
+
