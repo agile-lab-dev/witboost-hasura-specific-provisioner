@@ -47,7 +47,7 @@ spec:
             - name: HASURA_ADMIN_SECRET
               valueFrom:
                 secretKeyRef:
-                  name: {{ .Release.Name }}-hasura-sp-secrets
+                  name: witboost-addons-secrets
                   key: HASURA_ADMIN_SECRET
             - name: HASURA_URL
               value: {{ .Values.hasura.url }}
@@ -60,27 +60,27 @@ spec:
             - name: SNOWFLAKE_HOST
               valueFrom:
                 secretKeyRef:
-                  name: {{ .Release.Name }}-hasura-sp-snowflake-secrets
+                  name: witboost-addons-secrets
                   key: SNOWFLAKE_HOST
             - name: SNOWFLAKE_USER
               valueFrom:
                 secretKeyRef:
-                  name: {{ .Release.Name }}-hasura-sp-snowflake-secrets
+                  name: witboost-addons-secrets
                   key: SNOWFLAKE_USER
             - name: SNOWFLAKE_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: {{ .Release.Name }}-hasura-sp-snowflake-secrets
+                  name: witboost-addons-secrets
                   key: SNOWFLAKE_PASSWORD
             - name: SNOWFLAKE_WAREHOUSE
               valueFrom:
                 secretKeyRef:
-                  name: {{ .Release.Name }}-hasura-sp-snowflake-secrets
+                  name: witboost-addons-secrets
                   key: SNOWFLAKE_WAREHOUSE
             - name: SNOWFLAKE_ROLE
               valueFrom:
                 secretKeyRef:
-                  name: {{ .Release.Name }}-hasura-sp-snowflake-secrets
+                  name: witboost-addons-secrets
                   key: SNOWFLAKE_ROLE
             - name: NAMESPACE
               valueFrom:
