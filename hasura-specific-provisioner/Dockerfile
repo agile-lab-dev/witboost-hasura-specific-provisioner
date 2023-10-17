@@ -36,6 +36,7 @@ WORKDIR /app
 COPY pyproject.toml .
 COPY poetry.lock .
 COPY server_start.sh .
+COPY logging.yaml .
 
 WORKDIR /app/src
 COPY src/. .

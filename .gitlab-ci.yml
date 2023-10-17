@@ -119,13 +119,25 @@ type_checks:
 run_tests:
   stage: test
   image: python:3.11
+  services:
+    - docker:23.0.0-dind
+  variables:
+    DOCKER_HOST: tcp://docker:2375
   before_script:
+    - curl -fsSL https://get.docker.com -o /tmp/get-docker.sh
+    - VERSION=23.0.0 sh /tmp/get-docker.sh
+    - echo '#!/usr/bin/env bash' > /bin/docker-compose
+    - echo 'docker compose "$@"' >> /bin/docker-compose
+    - chmod +x /bin/docker-compose
+    - docker --version
+    - docker-compose version
     - python --version
     - pip install poetry
+    - poetry --version
     - cd hasura-specific-provisioner
     - poetry install
   script:
-    - poetry run pytest --cov=src/ tests/. --cov-report=xml
+    - poetry run pytest --cov=src/ tests/. --cov-report=xml --capture=no
   coverage: '/(?i)total.*? (100(?:\.0+)?\%|[1-9]?\d(?:\.\d+)?\%)$/'
   artifacts:
     reports:

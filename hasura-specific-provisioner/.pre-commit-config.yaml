@@ -3,6 +3,9 @@ repos:
     rev: v4.4.0
     hooks:
     -   id: check-yaml
+        args:
+          # treat yaml as unsafe, avoid issue with !reference
+          - --unsafe
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
 
@@ -40,3 +43,4 @@ repos:
     rev: v1.1.1
     hooks:
     -   id: mypy
+        additional_dependencies: [types-requests == 2.31.0, types-PyYAML == 6.0]

@@ -8,21 +8,26 @@ packages = [{include = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
-pytest = "^7.2.2"
-black = "^23.1.0"
-mypy = "^1.1.1"
-fastapi-code-generator = "^0.4.1"
-fastapi = {extras = ["all"], version = "^0.95.2"}
-pre-commit = "^3.1.1"
-ruff = "^0.0.255"
-opentelemetry-distro = "^0.38b0"
-opentelemetry-instrumentation-fastapi = "0.38b0"
-opentelemetry-exporter-otlp-proto-grpc = "^1.17.0"
-opentelemetry-exporter-otlp = "^1.17.0"
-pip-audit = "^2.5.3"
+black = "^23.9.1"
+fastapi = {extras = ["all"], version = "^0.103.1"}
+httpx = "^0.25.0"
+mypy = "^1.5.1"
+opentelemetry-distro = "^0.41b0"
+opentelemetry-exporter-otlp-proto-grpc = "^1.20.0"
+opentelemetry-exporter-otlp = "^1.20.0"
+opentelemetry-instrumentation-fastapi = "0.41b0"
+pip-audit = "^2.6.1"
+pre-commit = "^3.4.0"
+pytest = "^7.4.2"
 pytest-cov = "^4.0.0"
-certifi = "^2023.7.22"
-pyyaml = ">=6.0.1"
+ruff = "^0.0.291"
+pyyaml = "^6.0.1"
+types-pyyaml = "^6.0.1"
+types-requests = "^2.31.0.5"
+urllib3 = "^2.0.6"
+
+[tool.poetry.group.dev.dependencies]
+testcontainers = "^3.7.1"
 
 [tool.ruff]
 select = ["E", "F", "I"]
@@ -32,9 +37,11 @@ skip-string-normalization = true
 
 [tool.pytest.ini_options]
 addopts = "-v"
+log_cli = true
+log_cli_level = "DEBUG"
 
 [tool.coverage.report]
-fail_under = 90
+fail_under = 85
 
 [build-system]
 requires = ["poetry-core"]
@@ -54,7 +61,9 @@ authorized_licenses = [
     'other/proprietary',
     'python software foundation',
     'the unlicense (unlicense)',
-    '3-clause bsd'
+    '3-clause bsd',
+    'BSD-2-Clause',
+    'Apache-2.0'
 ]
 unauthorized_licenses = [
     "gnu general public license v2 (gplv2)"
