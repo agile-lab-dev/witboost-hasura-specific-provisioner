@@ -22,6 +22,7 @@ A Helm chart for Kubernetes
 | image.tag | string | `"0.0.0-SNAPSHOT.71e4ae1.fix-types"` | Image tag |
 | labels | object | `{}` | Allows you to specify common labels |
 | livenessProbe | object | `{}` | liveness probe spec |
+| loggingFileOverride | object | `{}` | logging override: it allows to override the content of the default logging.yaml |
 | readinessProbe | object | `{}` | readiness probe spec |
 | resources | object | `{}` | resources spec |
 | rolemapper.timeout | string | `nil` | RoleMapper microservice  URL |

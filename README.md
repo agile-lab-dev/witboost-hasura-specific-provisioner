@@ -151,7 +151,7 @@ Application configurations are handled with environment variables:
 
 Those environment variables are already templated in the Helm chart (see below). Customize them according to your needs.
 
-Logging is handled with the native Python logging module.
+Logging is handled with the native Python logging module. The Helm chart provides a default [logging.yaml](helm/files/logging.yaml) that you can override. Check out the [Helm docs](helm/README.md) for details.
 
 To configure the `OpenTelemetry framework` refer to the [OpenTelemetry Setup](hasura-specific-provisioner/docs/opentelemetry.md).
 

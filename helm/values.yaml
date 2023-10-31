@@ -41,3 +41,6 @@ securityContext:
 
 # -- resources spec
 resources: {}
+
+# -- logging override: it allows to override the content of the default logging.yaml
+loggingFileOverride: {}

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: {{ template "pythonsp.name" . }}-config
+  labels:
+{{- include "pythonsp.labels" . | nindent 4 }}
+data:
+  logging.yaml: |
+  {{- if .Values.loggingFileOverride -}}
+  {{- .Values.loggingFileOverride | nindent 4 }}
+  {{- else -}}
+  {{- .Files.Get "files/logging.yaml" | nindent 4 }}
+  {{ end }}

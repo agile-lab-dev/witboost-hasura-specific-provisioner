@@ -23,6 +23,9 @@ spec:
         - name: {{ .Values.dockerRegistrySecretName }}
       {{- end}}
       volumes:
+        - name: config
+          configMap:
+            name: {{ template "pythonsp.name" . }}-config
       containers:
         - name: {{ .Chart.Name }}
           image: {{ .Values.image.registry }}:{{ .Values.image.tag }}
@@ -82,8 +85,12 @@ spec:
                 secretKeyRef:
                   name: witboost-addons-secrets
                   key: SNOWFLAKE_ROLE
+            - name: LOG_CFG
+              value: /opt/docker/etc/configs/logging.yaml
             - name: NAMESPACE
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.namespace
           volumeMounts:
+            - name: config
+              mountPath: /opt/docker/etc/configs
