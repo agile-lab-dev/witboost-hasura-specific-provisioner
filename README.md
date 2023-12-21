@@ -1,12 +1,14 @@
+<br/>
 <p align="center">
     <a href="https://www.agilelab.it/witboost">
         <img src="docs/img/witboost_logo.svg" alt="witboost" width=600 >
     </a>
 </p>
+<br/>
 
-Designed by [Agile Lab](https://www.agilelab.it/), witboost is a versatile platform that addresses a wide range of sophisticated data engineering challenges. It enables businesses to discover, enhance, and productize their data, fostering the creation of automated data platforms that adhere to the highest standards of data governance. Want to know more about witboost? Check it out [here](https://www.agilelab.it/witboost) or [contact us!](https://www.agilelab.it/contacts)
+Designed by [Agile Lab](https://www.agilelab.it/), Witboost is a versatile platform that addresses a wide range of sophisticated data engineering challenges. It enables businesses to discover, enhance, and productize their data, fostering the creation of automated data platforms that adhere to the highest standards of data governance. Want to know more about Witboost? Check it out [here](https://www.agilelab.it/witboost) or [contact us!](https://www.agilelab.it/contacts)
 
-This repository is part of our [Starter Kit](https://github.com/agile-lab-dev/witboost-starter-kit) meant to showcase witboost's integration capabilities and provide a "batteries-included" product.
+This repository is part of our [Starter Kit](https://github.com/agile-lab-dev/witboost-starter-kit) meant to showcase Witboost's integration capabilities and provide a "batteries-included" product.
 
 # Hasura Specific Provisioner
 
@@ -20,7 +22,7 @@ This repository is part of our [Starter Kit](https://github.com/agile-lab-dev/wi
 
 ## Overview
 
-This Python microservice implements the Witboost Specific Provisioner interface for GraphQL Output Ports based on Hasura.
+This Python microservice implements the Witboost Specific Provisioner interface for GraphQL Output Ports based on Hasura. It depends on an additional microservice, the [Hasura Authentication Webhook and Role Mapper](https://github.com/agile-lab-dev/witboost-hasura-auth-webhook-role-mapper), in order to work.
 
 ### What's a Specific Provisioner?
 
@@ -30,7 +32,7 @@ You can learn more about how the Specific Provisioners fit in the broader pictur
 
 ### Hasura
 
-Hasura is an open-source, real-time GraphQL engine that simplifies and accelerates API development for web and mobile applications. It connects to your data sources like databases or REST services and automatically generates a GraphQL API, making it easier to query and manipulate data. Hasura's real-time capabilities enable instant updates to clients when data changes, enhancing the responsiveness of applications. It's a popular tool for developers looking to streamline the process of building dynamic and interactive applications by providing a unified and efficient way to access, manage, and synchronize data.
+[Hasura](https://hasura.io/) is an open-source, real-time GraphQL engine that simplifies and accelerates API development for web and mobile applications. It connects to your data sources like databases or REST services and automatically generates a GraphQL API, making it easier to query and manipulate data. Hasura's real-time capabilities enable instant updates to clients when data changes, enhancing the responsiveness of applications. It's a popular tool for developers looking to streamline the process of building dynamic and interactive applications by providing a unified and efficient way to access, manage, and synchronize data.
 
 ### Software stack
 
@@ -139,7 +141,7 @@ Application configurations are handled with environment variables:
 | Environment Variable | Description                                             |
 |----------------------|---------------------------------------------------------|
 | HASURA_URL           | URL of the Hasura instance                              |
-| HASURA_ADMIN_SECRET  | The secret to use for authenticating to the Hasura      |
+| HASURA_ADMIN_SECRET  | The secret to use for authenticating to Hasura          |
 | HASURA_TIMEOUT       | The timeout to use when sending requests to Hasura      |
 | ROLE_MAPPER_URL      | URL of the RoleMapper Micro Service                     |
 | ROLE_MAPPER_TIMEOUT  | The timeout to use when sending requests to Role Mapper |
@@ -165,15 +167,17 @@ This project is available under the [Apache License, Version 2.0](https://openso
 
 ## About us
 
+<br/>
 <p align="center">
     <a href="https://www.agilelab.it">
-        <img src="docs/img/agilelab_logo.jpg" alt="Agile Lab" width=600>
+        <img src="docs/img/agilelab_logo.svg" alt="Agile Lab" width=600>
     </a>
 </p>
+<br/>
 
 Agile Lab creates value for its Clients in data-intensive environments through customizable solutions to establish performance driven processes, sustainable architectures, and automated platforms driven by data governance best practices.
 
-Since 2014 we have implemented 100+ successful Elite Data Engineering initiatives and used that experience to create Witboost: a technology agnostic, modular platform, that empowers modern enterprises to discover, elevate and productize their data both in traditional environments and on fully compliant Data mesh architectures.
+Since 2014 we have implemented 100+ successful Elite Data Engineering initiatives and used that experience to create Witboost: a technology-agnostic, modular platform, that empowers modern enterprises to discover, elevate and productize their data both in traditional environments and on fully compliant Data mesh architectures.
 
 [Contact us](https://www.agilelab.it/contacts) or follow us on:
 - [LinkedIn](https://www.linkedin.com/company/agile-lab/)
