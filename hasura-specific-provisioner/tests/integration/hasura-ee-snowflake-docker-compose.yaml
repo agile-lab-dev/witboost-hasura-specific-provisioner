@@ -22,8 +22,8 @@ services:
       # HASURA_GRAPHQL_EE_LICENSE_KEY: ""
       HASURA_GRAPHQL_ADMIN_SECRET: myadminsecretkey
       ## The metadata database for this Hasura GraphQL project. Can be changed to a managed postgres instance
-      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:postgrespassword@postgres:5432/postgres
-      # HASURA_GRAPHQL_READ_REPLICA_URLS: postgres://postgres:postgrespassword@postgres:5432/postgres
+      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:postgrespassword@postgres:5432/postgres #gitleaks:allow
+      # HASURA_GRAPHQL_READ_REPLICA_URLS: postgres://postgres:postgrespassword@postgres:5432/postgres #gitleaks:allow
 
       ## Optional settings
       ## enable the console served by server
