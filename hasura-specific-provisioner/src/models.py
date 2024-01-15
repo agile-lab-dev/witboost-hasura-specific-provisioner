@@ -74,7 +74,7 @@ class UpdateAclRequest(BaseModel):
     refs: List[str] = Field(
         ...,
         description="Identities (i.e. users and groups) involved in the ACL update request",  # noqa: E501
-        example=[
+        examples=[
             "user:alice",
             "user:bob",
             "group:groupA",

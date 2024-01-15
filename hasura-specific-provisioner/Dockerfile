@@ -45,10 +45,10 @@ WORKDIR /app
 
 ENV PYTHONPATH=${PYTHONPATH}:${PWD}
 
-# Install Poetry and the packages specified in the toml.
+# Install Poetry, project dependencies and the project itself without a virtualenv
 RUN pip install poetry
 RUN poetry config virtualenvs.create false
-RUN poetry install --no-root
+RUN poetry install
 
 EXPOSE 5002
 
