@@ -26,15 +26,15 @@ class OpenMetadataColumn(BaseModel):
     precision: Optional[int]
     scale: Optional[int]
 
-    @validator('dataType')
+    @validator("dataType")
     def check_dataType(cls, value: str, values: dict) -> str:
         if value.upper() not in OPENMETADATA_SUPPORTED_DATATYPES:
             raise ValueError(
-                "Column \""
+                'Column "'
                 + values["name"]
-                + "\" specifies dataType of \""
+                + '" specifies dataType of "'
                 + value
-                + "\" but this is not a valid OpenMetadata data type"
+                + '" but this is not a valid OpenMetadata data type'
             )
         return value
 
@@ -52,7 +52,7 @@ class OutputPort(BaseModel):
     name: str
     fullyQualifiedName: str
     description: str
-    kind: Literal['outputport']
+    kind: Literal["outputport"]
     version: str
     infrastructureTemplateId: str
     useCaseTemplateId: str
@@ -77,9 +77,9 @@ class HasuraOutputPortSpecific(BaseModel):
 
 
 class HasuraOutputPort(OutputPort):
-    platform: Literal['Hasura']
-    technology: Literal['Hasura']
-    outputPortType: Literal['GraphQL']
+    platform: Literal["Hasura"]
+    technology: Literal["Hasura"]
+    outputPortType: Literal["GraphQL"]
     specific: HasuraOutputPortSpecific
 
 

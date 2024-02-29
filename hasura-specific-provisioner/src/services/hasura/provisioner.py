@@ -1,4 +1,5 @@
 from typing import List, Union
+from urllib.parse import quote
 
 from src.common.model.config import ProvisionerConfig
 from src.common.model.descriptor import DataProduct, HasuraOutputPort, OutputPort
@@ -325,7 +326,7 @@ class HasuraProvisioner(object):
 
         jdbc_url = (
             f"jdbc:snowflake://{sc.host}/?"
-            f"user={sc.user}&password={sc.password}&"
+            f"user={sc.user}&password={quote(sc.password)}&"
             f"role={sc.role}&warehouse={sc.warehouse}&"
             f"db={db}&schema={schema}"
         )
@@ -340,7 +341,7 @@ def _normalize(value: str) -> str:
 def _make_prefix(dp: DataProduct, op: HasuraOutputPort) -> str:
     domain_normalized = _normalize(dp.domain)
     dpname_normalized = _normalize(dp.name)
-    dp_major_version = _normalize(dp.version.split('.')[0])
+    dp_major_version = _normalize(dp.version.split(".")[0])
     opname_normalized = _normalize(op.name)
     prefix = f"{domain_normalized}_{dpname_normalized}_{dp_major_version}_{opname_normalized}_"  # noqa E501
 
@@ -350,7 +351,7 @@ def _make_prefix(dp: DataProduct, op: HasuraOutputPort) -> str:
 def _make_prefix_error(value, field_name, field_friendly_name, prefix) -> str:
     error = (
         f"The {field_friendly_name} (field: {field_name}) must start with prefix "
-        f"\"{prefix}\" but the actual value \"{value}\" does not."
+        f'"{prefix}" but the actual value "{value}" does not.'
         f"The format of the prefix is "
         "<domain>_<data product name>_<data product major version>_<output port name> "
         "where all the components are normalized (only lowercase letters and numbers)."
@@ -361,7 +362,7 @@ def _make_prefix_error(value, field_name, field_friendly_name, prefix) -> str:
 def _make_source_name(dp: DataProduct) -> str:
     domain_normalized = _normalize(dp.domain)
     dpname_normalized = _normalize(dp.name)
-    dp_major_version = _normalize(dp.version.split('.')[0])
+    dp_major_version = _normalize(dp.version.split(".")[0])
     return f"{domain_normalized}_{dpname_normalized}_{dp_major_version}"
 
 

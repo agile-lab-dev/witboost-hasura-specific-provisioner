@@ -5,8 +5,8 @@ from pydantic import BaseModel
 
 
 class DataSourceType(StrEnum):
-    SNOWFLAKE = 'snowflake'
-    POSTGRESQL = 'pg'
+    SNOWFLAKE = "snowflake"
+    POSTGRESQL = "pg"
 
 
 class QualifiedTable(BaseModel):

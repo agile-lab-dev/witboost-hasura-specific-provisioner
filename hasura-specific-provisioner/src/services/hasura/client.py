@@ -30,9 +30,9 @@ class HasuraAdminClient(object):
     def __init__(
         self, hasura_url: str, hasura_admin_secret: str, hasura_timeout: int = 30
     ):
-        self._metadata_endpoint = self._ensure_slash(hasura_url) + 'v1/metadata'
-        self._query_endpoint = self._ensure_slash(hasura_url) + 'v2/query'
-        self._health_endpoint = self._ensure_slash(hasura_url) + 'healthz'
+        self._metadata_endpoint = self._ensure_slash(hasura_url) + "v1/metadata"
+        self._query_endpoint = self._ensure_slash(hasura_url) + "v2/query"
+        self._health_endpoint = self._ensure_slash(hasura_url) + "healthz"
         auth = HasuraAdminTokenAuth(hasura_admin_secret)
         self._client = Client(auth=auth, timeout=hasura_timeout)
         self._logger = logging.getLogger(__name__)
@@ -464,6 +464,6 @@ class HasuraAdminClient(object):
 
     @staticmethod
     def _ensure_slash(url: str) -> str:
-        if not url.endswith('/'):
-            return url + '/'
+        if not url.endswith("/"):
+            return url + "/"
         return url
