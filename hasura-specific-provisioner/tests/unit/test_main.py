@@ -187,7 +187,7 @@ def test_main_validate_failure_validation_error_unpack() -> None:
     app.dependency_overrides[get_provisioner] = mock_provisioner
     response = client.post("/v1/validate", json=bad_provision_request)
 
-    assert response.status_code == 400
+    assert response.status_code == 200
     assert response.json() == {
         "error": {
             "errors": [

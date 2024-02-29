@@ -62,7 +62,7 @@ class OutputPort(BaseModel):
     outputPortType: str
     creationDate: datetime
     startDate: datetime
-    tags: List[str]
+    tags: List[dict]
     sampleData: Any
     semanticLinking: List[Any]
     specific: Any

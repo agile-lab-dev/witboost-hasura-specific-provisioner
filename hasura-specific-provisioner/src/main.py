@@ -193,7 +193,7 @@ def validate(
     """
     try:
         if isinstance(unpacked_request, ValidationError):
-            response.status_code = status.HTTP_400_BAD_REQUEST
+            response.status_code = status.HTTP_200_OK
             return ValidationResult(valid=False, error=unpacked_request)
         data_product, hasura_output_port, source_output_port = unpacked_request
         validation_result = provisioner.validate(
